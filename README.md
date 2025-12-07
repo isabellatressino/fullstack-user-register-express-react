@@ -42,13 +42,19 @@ npm install
 DATABASE_URL=""
 ```
 
-#### 2.3. Gere o banco
+#### 2.3. Gerar o Prisma Client
+
+```bash
+npx prisma generate
+```
+
+#### 2.4. Gere o banco
 
 ```bash
 npx prisma db push
 ```
 
-#### 2.4. Inicie o servidor
+#### 2.5. Inicie o servidor
 
 ```bash
 node --watch server.js
